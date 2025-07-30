@@ -1,5 +1,5 @@
 backend:
-  name: auth0
+  name: github
   repo: aiekodevos/Peter-Lagast
   branch: main
 
