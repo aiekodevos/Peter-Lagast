@@ -4,7 +4,7 @@ backend:
   branch: main
 
 auth:
-  client_id: MRNsk1Z3panImNvMU0BOGJUfMyFe7q8p
+  client_id: a6VEMmaWGOIQRU2p5tdFiqSoGtNWQ8CP
   auth_endpoint: dev-1j0zgguaeogv50j2.us.auth0.com
 
 media_folder: "images/uploads"
