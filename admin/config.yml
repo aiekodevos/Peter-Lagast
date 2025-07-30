@@ -1,7 +1,7 @@
 backend:
-  name: git-gateway
-  branch: main
-  repo: aiekodevos/Peter-Lagast
+  name: auth0
+  domain: dev-1j0zgguaeogv50j2.us.auth0.com
+  client_id: a6VEMmaWGOIQRU2p5tdFiqSoGtNWQ8CP
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
