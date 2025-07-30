@@ -10,13 +10,8 @@ collections:
     label: "Werken"
     folder: "content/werken"
     create: true
-    slug: "{{year}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
       - { label: "Titel", name: "title", widget: "string" }
-      - { label: "Datum", name: "date", widget: "datetime" }
       - { label: "Afbeelding", name: "image", widget: "image" }
-      - { label: "Omschrijving", name: "body", widget: "markdown" }
-      - label: "Jaar"
-        name: "year"
-        widget: "select"
-        options: ["2025", "2024", "2023", "2022", "2021"]
+      - { label: "Jaar", name: "jaar", widget: "string" }
