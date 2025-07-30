@@ -20,15 +20,12 @@ collections:
       - label: "Titel"
         name: "title"
         widget: "string"
-
       - label: "Jaar"
         name: "year"
         widget: "number"
-
       - label: "Afbeelding"
         name: "image"
         widget: "image"
-
       - label: "Beschrijving"
         name: "body"
         widget: "markdown"
