@@ -6,12 +6,17 @@ media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "photos"
-    label: "Photos"
-    folder: "content/photos"
+  - name: "werken"
+    label: "Werken"
+    folder: "content/werken"
     create: true
     slug: "{{year}}-{{slug}}"
     fields:
-      - { label: "Year", name: "year", widget: "number" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Photo", name: "photo", widget: "image" }
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Afbeelding", name: "image", widget: "image" }
+      - { label: "Omschrijving", name: "body", widget: "markdown" }
+      - label: "Jaar"
+        name: "year"
+        widget: "select"
+        options: ["2025", "2024", "2023", "2022", "2021"]
