@@ -4,8 +4,8 @@ backend:
   branch: main
 
 auth:
-  client_id: a6VEMmaWGOIQRU2p5tdFiqSoGtNWQ8CP
-  auth_endpoint: https://dev-1j0zgguaeogv50j2.us.auth0.com/authorize
+  client_id: q3v6tM7Y29xHmU7l1RysHZjAZqPieaLP
+  auth_endpoint: dev-1j0zgguaeogv50j2.us.auth0.com
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
