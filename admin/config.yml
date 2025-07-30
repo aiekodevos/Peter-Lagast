@@ -1,6 +1,11 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: aiekodevos/Peter-Lagast  # jouw GitHub repo
   branch: main
+
+auth:
+  client_id: MRNsk1Z3panImNvMU0BOGJUfMyFe7q8p
+  auth_endpoint: dev-1j0zgguaeogv50j2.us.auth0.com
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
@@ -12,6 +17,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Titel", name: "title", widget: "string" }
-      - { label: "Afbeelding", name: "image", widget: "image" }
-      - { label: "Jaar", name: "jaar", widget: "string" }
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Jaar", name: "year", widget: "number"}
+      - {label: "Afbeelding", name: "image", widget: "image"}
+      - {label: "Beschrijving", name: "body", widget: "markdown"}
